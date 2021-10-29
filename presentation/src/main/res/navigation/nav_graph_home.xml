@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/access_navigation"
+    app:startDestination="@id/navigationAccess">
+
+    <navigation android:id="@+id/navigationAccess"
+        app:startDestination="@id/accessFragment">
+        <fragment
+            android:id="@+id/accessFragment"
+            android:name="com.nextpass.nextiati.nextpass.ui.access.menu.AccessFragment"
+            android:label="AccessFragment"
+            tools:layout="@layout/fragment_access" >
+            <action
+                android:id="@+id/action_accessFragment_to_dynamicCodeFragment"
+                app:destination="@id/dynamicCodeFragment"
+                app:popUpTo="@id/accessFragment"/>
+        </fragment>
+        <fragment
+            android:id="@+id/dynamicCodeFragment"
+            android:name="com.nextpass.nextiati.nextpass.ui.access.dynamiccode.DynamicCodeFragment"
+            android:label="DynamicCodeFragment"
+            tools:layout="@layout/fragment_dynamic_code"/>
+    </navigation>
+
+    <navigation android:id="@+id/navigationSuggestions"
+        app:startDestination="@id/suggestionFragment">
+        <fragment
+            android:id="@+id/suggestionFragment"
+            android:name="com.nextpass.nextiati.nextpass.ui.suggestion.SuggestionFragment"
+            android:label="SuggestionFragment"
+            tools:layout="@layout/fragment_suggestions" />
+    </navigation>
+
+    <navigation android:id="@+id/navigationProfile"
+        app:startDestination="@id/profileFragment">
+        <fragment
+            android:id="@+id/profileFragment"
+            android:name="com.nextpass.nextiati.nextpass.ui.profile.ProfileFragment"
+            android:label="ProfileFragment"
+            tools:layout="@layout/fragment_profile" />
+    </navigation>
+
+</navigation>

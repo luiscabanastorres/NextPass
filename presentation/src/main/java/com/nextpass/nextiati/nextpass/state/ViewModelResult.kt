@@ -1,7 +1,5 @@
 package com.nextpass.nextiati.nextpass.state
 
-import androidx.annotation.StringRes
-
 sealed class ViewModelResult<out R> {
 
     data class Success<out T>(val data: T) : ViewModelResult<T>()

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C8C8C8</color>
+    <color name="colorPrimaryDark">#002560</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="bottom_navigation_background_color">#1C1C1D</color>
+    <color name="bottom_navigation_selected_color">#020221</color>
+    <color name="bottom_navigation_not_selected_color">#A3ADBB</color>
+    <color name="division_card_color">#616060</color>
+    <color name="ligthBlue">#006FFF</color>
+    <color name="mediumGray">#AFAFAF</color>
+    <color name="blue_login">#007AFF</color>
+    <color name="color_blue2"> #FFFFFF</color>
+    <color name="background"> #1C1C1D</color>
+</resources>

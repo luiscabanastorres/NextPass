@@ -1,10 +1,10 @@
 package com.nextpass.nextiati.nextpass.extensions
 
+import com.nextpass.nextiati.domain.state.Result
 import com.nextpass.nextiati.nextpass.errorparser.ErrorParser
 import com.nextpass.nextiati.nextpass.state.EmptyState
 import com.nextpass.nextiati.nextpass.state.ViewModelListResult
 import com.nextpass.nextiati.nextpass.state.ViewModelResult
-import com.nextpass.nextiati.domain.state.Result
 
 
 fun <R> Result<R>.viewModel(
